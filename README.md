@@ -92,6 +92,6 @@ After initial pipeline fill, the design produces **one ciphertext per clock cycl
 ├── testbench
 │   └── test_AES128.v
 ├── report
-│   └── Power_Attackers_Pipelined_AES_Encryption.pdf
+│   └── Pipelined_AES_Encryption.pdf
 └── README.md
 ```
