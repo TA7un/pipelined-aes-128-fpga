@@ -76,22 +76,22 @@ After initial pipeline fill, the design produces **one ciphertext per clock cycl
 
 ## 📁 Repository Structure
 
----
+```
 .
-├── rtl/
-│ ├── AESEncrypt.v
-│ ├── AddRoundKey.v
-│ ├── SubBytes.v
-│ ├── ShiftRows.v
-│ ├── MixColumns.v
-│ ├── KeyGen.v
-│ ├── SubTable.v
-│ └── Update.v
-├── software/
-│ └── vitis.c
-├── testbench/
-│ └── test_AES128.v
-├── report/
-│ └── Power_Attackers_Pipelined_AES_Encryption.pdf
+├── rtl
+│   ├── AESEncrypt.v
+│   ├── AddRoundKey.v
+│   ├── SubBytes.v
+│   ├── ShiftRows.v
+│   ├── MixColumns.v
+│   ├── KeyGen.v
+│   ├── SubTable.v
+│   └── Update.v
+├── software
+│   └── vitis.c
+├── testbench
+│   └── test_AES128.v
+├── report
+│   └── Power_Attackers_Pipelined_AES_Encryption.pdf
 └── README.md
----
+```
